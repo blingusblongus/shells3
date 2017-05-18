@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Methods for Getting Red Dogs 101</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+
+
+</head>
+
+<body>
+
+ <div class="d-flex flex-row">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+<div class="d-flex flex-row-reverse">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>  
+    
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+            })
+                
+        $('.rd').click(function () {
+            $('.active').fadeOut(1000);
+            $('.active').removeClass('active');
+        })
+        
+        $(document).ready(function () {
+            $('#rd2').click(function () {
+                $('#rd2-info').fadeIn(1000);
+                $('#rd2-info').toggleClass('active');
+            });
+
+        });
+        
+
+        
+        
+    </script>
+    
+</body>
+
+</html>
