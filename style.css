@@ -1,20 +1,21 @@
 body {
     background-color: black;
+    margin: 0 auto;
 }
 
 .background {
-    width: 1000px;
-    height: 1334px;
+    width: 1024px;
     margin: 0px auto;
-    background: url(images/background-text.jpg);
-    background-size: contain;
+    background: url(images/background-portrait.jpg);
+    background-size: cover;
+    background-position: bottom;
     color: white;
     background-repeat: no-repeat;
     margin: auto auto;
 }
 
 .case {
-    position: relative;
+    position: absolute;
     color: black;
     display: flex;
     justify-content: center;
@@ -59,7 +60,7 @@ body {
 
 .panel-background {
     background-color: black;
-    width: 1000px;
+    width: 1024px;
     height: 1334px;
     opacity: .8;
     z-index: 1;
@@ -67,8 +68,7 @@ body {
 }
 
 .info {
-    width: 1000px;
-    height: 1334px;
+    width: 1024px;
     position: absolute;
     z-index: 2;
     text-align: center;
@@ -219,15 +219,16 @@ body {
 /* Shell Cases */
 
 #cases {
-    width: 1000px;
-    height: 1334px;
+    width: 1024px;
+    height: 768px;
+    position: relative;
 }
 
 #color {
-    width: 36%;
+    width: 26%;
     height: 37%;
     top: 8%;
-    left: 50%;
+    left: 9.5%;
 }
 
 #predation {
@@ -247,8 +248,8 @@ body {
 #math {
     width: 17%;
     height: 17%;
-    left: 36%;
-    top: -16%;
+    left: 0%;
+    top: 0%;
 }
 
 #texture {
@@ -262,7 +263,7 @@ body {
     width: 24%;
     height: 25%;
     left: 10%;
-    top: -93%;
+    top: 10%;
 }
 
 #size {
