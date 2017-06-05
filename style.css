@@ -195,29 +195,35 @@ body {
 }
 
 .pattern img {
-    width: 100%;
+    width: 50%;
 }
 
 .pattern p {
-    margin-top: 35px;
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+.pattern .click-prompt {
+    margin-top: 0;
 }
 
 .pattern-2 img {
-    width: 100%
+    width: 60%;
 }
 
 .pattern-2 p {
-    margin-top: 30px;
-    font-size: 26px;
+    margin: 20px auto 0 auto;
+    font-size: 17px;
+    
 }
 
 .texture p {
-    font-size: 33px;
+    font-size: 26px;
     margin-top: 20px;
 }
 
 .texture hr {
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .texture h1 {
@@ -229,18 +235,22 @@ body {
 }
 
 .life-cycle p {
-    font-size: 40px;
-    margin-top: 20px;
+    font-size: 36px;
+    margin-top: 0;
 }
 
 .life-cycle hr {
-    margin-top: 50px;
+    margin-top: 10px;
+}
+
+.sources ul {
+    margin-top: -10px;
 }
 
 .sources li {
     text-align: left;
-    margin-bottom: 6px;
-    font-size: 12px;
+    margin-bottom: 2px;
+    font-size: 10px;
 }
 
 

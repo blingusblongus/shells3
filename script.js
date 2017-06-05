@@ -7,7 +7,10 @@ $('.case').click(function(e){
     var id = e.currentTarget.id;
     
     //Check for empty Size click
-    if(id === "size") return;
+    if(id === "size"){
+        $('.life-cycle').fadeIn(1000);
+        $('.panel-background').fadeIn(1000);
+    };
     
     $('.' + id).fadeIn(1000);
     $('.panel-background').fadeIn(1000);
