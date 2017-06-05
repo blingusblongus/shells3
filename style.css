@@ -162,11 +162,21 @@ body {
 }
 
 .uses p {
-    font-size: 23px;
+    font-size: 16px;
+    text-align: left
+}
+
+.uses .middle {
+    text-align: left;
+    padding-top: 70px;
+    padding-right: 30px;
+    font-size: 20px;
 }
 
 .uses img {
-    width: 75%;
+    width: 80%;
+    margin-top: 0;
+    margin-left: 60px;
 }
 
 .uses .corner-prompt{
@@ -175,13 +185,13 @@ body {
 }
 
 .uses-2 p {
-    margin-top: 60px;
-    font-size: 27px;
+    font-size: 17px;
+    margin-bottom: -20px
 }
 
 .uses-2 img{
-    margin-top: 50px;
-    width: 100%;
+    margin-top: 0px;
+    width: 90%;
 }
 
 .pattern img {
