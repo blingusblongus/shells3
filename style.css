@@ -5,13 +5,15 @@ body {
 
 .background {
     width: 1024px;
+    height: 768px;
+    padding: 0 0;
     margin: 0px auto;
     background: url(images/background-portrait.jpg);
     background-size: cover;
     background-position: bottom;
     color: white;
     background-repeat: no-repeat;
-    margin: auto auto;
+    position: fixed;
 }
 
 .case {
@@ -61,15 +63,17 @@ body {
 .panel-background {
     background-color: black;
     width: 1024px;
-    height: 1334px;
+    height: 768px;
     opacity: .8;
     z-index: 1;
     position: absolute;
+    padding: 0 0;
+    margin: 0 0;
 }
 
 .info {
     width: 1024px;
-    position: absolute;
+    position: relative;
     z-index: 2;
     text-align: center;
     padding: 10px;
@@ -105,21 +109,33 @@ body {
 
 /* specific styling */
 
+.intro {
+    padding: 10px;
+}
+
+.intro p {
+    font-size: 16px;
+    text-align: left
+}
+
 .intro img {
-    margin-top: 25px;
+    margin-top: -25px;
 }
 
 .intro .click-prompt {
     margin-top: -10px;
+    position: absolute;
+    top: -70px;
+    left: 700px;
 }
 
 .color img {
-    width: 90%;
+    width: 50%;
 }
 
 .color p {
-    font-size: 26px;
-    width: 97%;
+    font-size: 16px;
+    width: 105%;
     margin-top: 15px;
 }
 
@@ -128,19 +144,21 @@ body {
     margin-bottom: 30px;
 }
 .predation p {
-    font-size: 34px;
+    font-size: 23px;
     margin-bottom: 30px;
 }
 
+
 .math img {
-    width: 90%;
+    margin-top: 0px;
+    width: 55%;
 }
 
 .math p {
-    font-size: 26px;
-    width: 97%;
-    margin: 30px 10px;
-    text-align: left;
+    font-size: 18px;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
 }
 
 .uses p {
