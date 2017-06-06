@@ -73,7 +73,7 @@ body {
 
 .info {
     width: 1024px;
-    position: relative;
+    position: absolute;
     z-index: 2;
     text-align: center;
     padding: 10px;
